@@ -1,6 +1,6 @@
 # 🎮 Arcadia
 
-**Esports Nexus** is a modular, AI-driven backend platform that powers real-time coaching, smart matchmaking, skill analytics, and personalized highlight generation for esports players, coaches, organizers, and fans.
+**Arcadia** is a modular, AI-driven backend platform that powers real-time coaching, smart matchmaking, skill analytics, and personalized highlight generation for esports players, coaches, organizers, and fans.
 
 ---
 
