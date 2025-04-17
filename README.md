@@ -51,7 +51,7 @@
 ```bash
 uvicorn app:app --reload
 Open API docs at: http://localhost:8000/docs
-
+```
 ---
 ## 📡 Sample API Endpoints
 
