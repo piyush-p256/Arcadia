@@ -36,23 +36,6 @@
 | Data Layer       | Neo4j (Knowledge Graph), JSON (Mocked DB)      |
 | Others           | Uvicorn, Pydantic, NumPy, SciPy                |
 
----
-
-## 📂 Project Structure
-backend/
-├── app.py                # FastAPI main app
-├── models.py             # Pydantic models for requests/responses
-├── ai_modules/
-│   ├── init.py
-│   ├── realtime_coach.py # RL agent for in-game coaching
-│   ├── skill_gap_analyzer.py # Playstyle clustering
-│   ├── highlight_generator.py # CV-driven highlight stitching
-│   └── knowledge_graph.py # Neo4j knowledge base
-├── utils/
-│   ├── cv_utils.py       # Action recognition mock
-│   ├── audio_utils.py    # TTS generation
-│   └── nlp_utils.py      # Summarization / captions
-
 
 ---
 
@@ -62,7 +45,56 @@ backend/
 - Python 3.9+
 - (Optional) Neo4j Desktop running locally
 
-### 📦 Install Dependencies
+
+## ▶️ Run API Server
 
 ```bash
-pip install -r requirements.txt
+uvicorn app:app --reload
+Open API docs at: http://localhost:8000/docs
+
+---
+## 📡 Sample API Endpoints
+
+- `POST /coach-feedback`  
+  Get live coaching tips
+
+- `POST /analyze-skill-gap`  
+  Return player clustering & gaps
+
+- `POST /generate-highlights`  
+  Create highlight reel for a fan profile
+
+- `GET /knowledge-graph/player/{id}`  
+  Query player insights
+
+---
+
+## 🎯 Use Cases
+
+- 🧠 **AI-Powered Coaching** for training maps  
+- 🧩 **Matchmaking** for esports tournaments  
+- 🎬 **Personalized Social Clips** for fans  
+- 🧾 **Smart Dashboards** for analysts & casters  
+
+---
+
+## 🌱 SDG Alignment
+
+- **SDG 4: Quality Education** – Learning through gamified coaching  
+- **SDG 9: Industry, Innovation, and Infrastructure** – Modern AI infrastructure for gaming  
+- **SDG 17: Partnerships for the Goals** – Empowering teams, platforms & sponsors alike  
+
+---
+
+## 🔮 Future Scope
+
+- 🧩 **Game Plugin SDK** for Valorant, CS2, LoL  
+- 🗣️ **Real-time Overlays and Voice Commands** powered by LLMs  
+- 📊 **B2B Dashboards** for teams, sponsors, and esports orgs  
+- 💰 **Data Monetization** with user-consented training sets  
+
+---
+
+## 👥 Contributors
+
+Built with 💡 by the **Esports Nexus** team – powered by vision, caffeine & clutch plays.
