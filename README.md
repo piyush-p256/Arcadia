@@ -97,4 +97,4 @@ Open API docs at: http://localhost:8000/docs
 
 ## 👥 Contributors
 
-Built with 💡 by the **Esports Nexus** team – powered by vision, caffeine & clutch plays.
+Built with 💡 by the **Pikachu** team – powered by vision, caffeine & clutch plays.
